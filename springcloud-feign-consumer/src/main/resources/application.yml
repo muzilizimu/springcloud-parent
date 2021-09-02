@@ -1,0 +1,9 @@
+server:
+  port: 7000
+spring:
+  application:
+    name: lee-feign-consumer
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:9999/eureka/
